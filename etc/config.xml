@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <montage>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>alphaLeporis\PercentShipping\Model\Carrier\Shipping</model>
+                <name>Shipping based on total</name>
+                <price>10.00</price>
+                <handling_fee></handling_fee>
+                <title>Shipping based on total</title>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </montage>
+        </carriers>
+    </default>
+</config>
